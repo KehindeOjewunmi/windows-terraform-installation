@@ -10,7 +10,7 @@ to create an ec2 instance, should use 'resource block'
 1. In the provider block, mention the cloud name, and region name 
    ```sh 
    provider "aws" {
-   project = "acme-app"
+   project = "my-app"
    region  = "us-central1"
    }
    ```
