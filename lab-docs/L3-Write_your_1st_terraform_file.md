@@ -11,7 +11,7 @@ to create an ec2 instance, should use 'resource block'
    ```sh 
    provider "aws" {
    project = "my-app"
-   region  = "us-central1"
+   region  = "us-west-2"
    }
    ```
 
